@@ -174,8 +174,6 @@ public class Level2Test {
 
             if (answer++ >= 500)
                 return -1;
-
-            System.out.println(answer + " : n = " + n);
         }
 
         return answer;

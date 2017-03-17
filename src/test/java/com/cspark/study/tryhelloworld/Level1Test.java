@@ -303,8 +303,6 @@ public class Level1Test {
      * @return
      */
     public int sumDivisor(int num) {
-        int answer = 0;
-
         List<Integer> divisors = new ArrayList<>();
         for (int i = 1; i <= num; i++) {
             if (num % i == 0)
