@@ -59,45 +59,8 @@ public class MergeSort {
         );
     }
 
-
     public static void main(String[] args) {
-
         MergeSort mergeSort = new MergeSort();
-        mergeSort.mergeSort(new int[]{3,2,1,6,5,4}, 0, 5);
-
-    }
-
-
-    private void mergeSort(int[] ints) {
-        int length = ints.length;
-
-        if (length > 1) {
-            int[] left = new int[length / 2];
-            int[] right = new int[length - (length / 2)];
-
-            for (int i = 0; i < ints.length; i++) {
-                if (i < length / 2)
-                    left[i] = ints[i];
-                else
-                    right[i - (length / 2)] = ints[i];
-            }
-
-            mergeSort(left);
-            mergeSort(right);
-            merge(ints, left, right);
-        }
-
-    }
-
-    private void merge(int[] ints, int[] left, int[] right) {
-        int li = 0;
-        int ri = 0;
-        int ci = 0;
-
-        while (left[li] > right[ri]) {
-
-        }
-
-
+        mergeSort.mergeSort(new int[]{3, 2, 1, 6, 5, 4}, 0, 5);
     }
 }

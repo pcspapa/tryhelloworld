@@ -11,7 +11,6 @@ import java.util.stream.Collectors;
  */
 public class QuickSort {
 
-
     private void quickSort(int[] ints, int lp, int rp) {
         int li = lp;
         int ri = rp;

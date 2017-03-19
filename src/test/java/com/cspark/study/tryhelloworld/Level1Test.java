@@ -275,6 +275,7 @@ public class Level1Test {
 
     /**
      * 피보나치 수
+     *   - n번째 피보나치 수를 반환해 주세요. 예를 들어 n = 3이라면 2를 반환해주면 됩니다.
      *
      * @param num
      * @return
